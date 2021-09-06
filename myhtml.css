@@ -1,0 +1,158 @@
+.ico {
+    border: 0px solid #000000;
+    background-image: url("imgggg.png");
+    background-size: 100%;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 15px;
+}
+<!--.iccco {
+        border-image: url("imgggg.png");
+        border: 3px;
+        width: 3840px;
+        height: 2160px;
+        background-image: url("imgggg.png") ;
+        background-size: 3%;
+        background-repeat: no-repeat;
+        position: fixed;
+        right: 10px ;
+        top: 30px ;
+    }-->
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #ebebe8;
+
+}
+.bjj {
+    width: 100%;
+    height: 40px;
+    background-color: #2c2c2c;
+}
+.nav {
+    width: 600px;
+    height: 40px;
+    margin-left: 0;
+    text-align: center;
+    line-height: 40px;
+}
+.nav li {
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    list-style: none;
+    width: 70px;
+    height: 40px;
+    float:left
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #e1e1e1;
+}
+.nav li:first-child {
+    margin-left: 40px;
+}
+.nav li::before{
+    content:"" ;
+    width: 68px;
+    height: 28px;
+    background-color: #ebebe8;
+    border-radius: 14px;
+    position: absolute;
+    top: 6px;
+    left: 1px;
+    z-index: -99;
+    display: none;
+}
+.nav li:hover::before{
+    background-image: url("car1.jpg");
+}
+.nav li:hover {
+    color: #ff7b5f;
+    cursor: pointer;
+
+}
+.nav li a:hover {
+    color: #ff7b5f;
+    cursor: pointer;
+}
+.nav li:hover .ZZRCTC {
+    display: block;
+    cursor: auto;
+}
+.ZZRCTC {
+    background-color: #9e9e9e;
+    width: 200px ;
+    height: 300px ;
+    padding: 20px;
+    box-shadow: 13px 10px 20px 5px #2c2c2c;
+    display: none;
+}
+.ZZRCTC .ZZRCTCtop{
+    width: 100%;
+    height: 200px;
+}
+.ZZRCTC .ZZRCTCtop .ZZRCTCtopl{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.nav li:hover .ZZRCTC .ZZRCTCtop .ZZRCTCtopl p{
+    cursor: pointer;
+}
+.nav li:hover .ZZRCTC .ZZRCTCtop .ZZRCTCtopl .FristTop {
+    cursor: default;
+}
+.ZZRCTC .ZZRCTCtop .ZZRCTCtopl p {
+    line-height: 10px;
+    color: #1a1a1a;
+}
+.ZZRCTC .ZZRCTCtop .ZZRCTCtopl p a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.ZZRCTC .ZZRCTCtop .ZZRCTCtopl .FristTop {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+.ZZRCTC .bottom {
+    background-repeat: no-repeat;
+    background-image: url("car1.jpg");
+    width : 200px ;
+    height : 130px ;
+    background-size: 100% ;
+}
+.backgrounddd {
+    background-repeat: no-repeat;
+    background-image: url("CAR3.JPG");
+
+    max-width: 100%; !important;
+    height: 855px; !important;
+    position: static;
+    background-size: 100% 100%;
+    filter: alpha(opacity=50);
+
+
+}
+.backgrounddd img {
+    display: block;
+    margin: 0 0;
+    filter: alpha(opacity=50);
+
+}
+
+.Lastone {
+    width: 100%;
+    height: 40px;
+    background-color: #2c2c2c;
+    position: absolute;
+    font-size :10px ;
+    float: right;
+}
