@@ -2,14 +2,16 @@ body{
     background-color: black;
 }
 .photo{
-    height: 1080px;
-    width: 600px;
+    height: 30%;
+    width: 30%;
     position: relative;
 }
 
-.photo image {
+.photo img {
+    margin: :auto;
+    align-content: center;
     width: 100%;
-    height:100%
+    height:100%;
 }
 
 .ys {
