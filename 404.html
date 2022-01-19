@@ -35,8 +35,6 @@
       font: 900 28px '';
     }
     .b h2{
-      /* 鼠标放开时的动画，第一个值是动画的过渡时间
-      第二个值是延迟一秒后执行动画 */
       transition: .5s 0s;
       opacity: 0;
       color: #A7FFAB;
@@ -74,9 +72,9 @@
       background-color: #8D56FF;
     }
     .a:hover .c div{
-      /* 设置延迟动画 */
+
       transition: .5s calc(var(--i)*.1s);
-      /* 移动的轨迹 */
+
       transform: rotateZ(220deg) translate(-200px,400px);
     }
     .a:hover .b{
@@ -108,10 +106,7 @@
   </style>
 </head>
 <body>
-<!-- 名片分三大块
-最外层的一块a
-文字一大块b
-平面圆柱一块c -->
+
 <div class="a">
   <div class="b">
     <a href="#">頁面已經被進食</a>
@@ -119,15 +114,14 @@
     <span>此頁面已被呆頭灰鳥進食</br>---------------------------------<br/>呆頭灰鳥是日本特有鳥類<br/>傳聞這種鳥類的進食畫面<br/>非常珍貴</span>
   </div>
   <div class="c">
-    <!-- --i是用来计算平面圆柱的动效延迟和距离的
-    --w则是用来计算平面圆柱的宽度 -->
+
     <div class="d" style="--i:1;--w:1.5"></div>
     <div class="d" style="--i:2;--w:1.6"></div>
     <div class="d" style="--i:3;--w:1.4"></div>
     <div class="d" style="--i:4;--w:1.7"></div>
     <div class="e" style="--i:1"></div>
   </div>
-  <!-- 设置二维码 -->
+
   <div class="f"></div>
 </div>
 </body>
